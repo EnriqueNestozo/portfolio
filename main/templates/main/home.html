@@ -1,0 +1,28 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>Django Tailwind</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% comment %} {% tailwind_preload_css %} {% endcomment %}
+		{% tailwind_css %}
+	</head>
+
+	<body class="bg-green-700 font-serif leading-normal tracking-normal">
+		<div class="container mx-auto">
+			<section class="flex items-center justify-center h-screen">
+				<h1 class="text-5xl">Enrique Nestozo</h1>
+			</section>
+            <div>
+                <form class="m-4 flex">
+                    <input class="rounded-l-lg p-2 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
+                    <button class="px-8 rounded-r-lg bg-yellow-400  text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+	</body>
+</html>
+    
