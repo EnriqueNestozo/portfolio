@@ -11,7 +11,29 @@
 	</head>
 
 	<body class="bg-green-700 font-serif leading-normal tracking-normal">
-		<div class="container mx-auto">
+		<main>
+			{% comment %} Header nav {% endcomment %}
+			<article class="container md:flex justify-between items-center">
+				{% comment %} left {% endcomment %}
+				<section class="p-3 md:flex items-center">
+					<a href="#" class="block mb-2 md:mr-6">
+						{% comment %} <img src="#" alt="Enrique Nestozo" mx-auto width="200"> {% endcomment %}
+						<h1 class="text-center text-3xl font-bold">Enrique Nestozo</h1>
+					</a>
+					<a href="#" class="nav-item md:mb-0 md:mr-4 ">Home</a>
+					<a href="#" class="nav-item nav-item-active md:mb-0 md:mr-4 ">Profile</a>
+					<a href="#" class="nav-item md:mb-0 md:mr-4 ">Projects</a>
+					<a href="#" class="nav-item md:mb-0 md:mr-4 ">Contact</a>
+				</section>
+
+				{% comment %} Rigt {% endcomment %}
+				<section class="text-center">
+					<a href="#" class="mr-4 bg-yellow-500 px-5 py-2 text-gray rounded">CV</a>	
+					<button class="px-2 rounded-lg bg-yellow-400  text-gray-800 font-bold p-2 uppercase border-yellow-500 border-t border-b border-r">Contact</button>
+				</section>
+			</article>
+		</main>
+		{% comment %} <div class="container mx-auto">
 			<section class="flex items-center justify-center h-screen">
 				<h1 class="text-5xl">Enrique Nestozo</h1>
 			</section>
@@ -21,7 +43,7 @@
                     <button class="px-8 rounded-r-lg bg-yellow-400  text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Subscribe</button>
                 </form>
             </div>
-        </div>
+        </div> {% endcomment %}
 
 	</body>
 </html>

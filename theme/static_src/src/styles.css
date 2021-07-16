@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-item{
+    @apply block text-center text-gray-700 mb-2;
+}
+.nav-item-active{
+    @apply border-solid border-2 border-yellow-500 py-2 px-3 rounded;
+}

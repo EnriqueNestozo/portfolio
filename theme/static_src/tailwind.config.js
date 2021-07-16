@@ -51,7 +51,15 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            colors:{
+                'azul': '#1e608b',
+                'verde': '#43cba1',
+            },
+            container:{
+                center: true,
+            }
+        },
     },
     variants: {
         extend: {},
